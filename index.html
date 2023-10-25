@@ -76,7 +76,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: url(https://images.pexels.com/photos/5910953/pexels-photo-5910953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+        background: url(https://images.unsplash.com/photo-1601055283742-8b27e81b5553?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -152,7 +152,7 @@
 
       /* Services section styles */
       .services-section {
-        padding: 100px 0;
+        padding: 80px 0;
         text-align: center;
         background-color: #fff;
         animation: fadeIn 2s ease;
@@ -245,13 +245,43 @@
           padding: 10px 0;
         }
 
-        .heading h1 {
-          font-size: 36px;
+        .heading {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background: url(https://images.pexels.com/photos/5910953/pexels-photo-5910953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          padding: 10px;
+          text-align: center;
+          height: 300px; /* Increase the height here */
+          animation: fadeIn 2s ease;
         }
-
+        .heading h1 {
+          font-family: "Playfair Display", serif;
+          font-size: 33px;
+          color: #333;
+          font-weight: bold;
+          text-transform: uppercase;
+          animation: slideInLeft 1s ease-in-out;
+        }
+  
+        .highlight-text {
+          color: #000;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+          position: relative;
+          transition: text-shadow 0.3s ease;
+        }
+  
         .heading p {
-          font-size: 18px;
-          margin: 10px 0;
+          font-family: "Raleway", sans-serif;
+          font-size: 20px;
+          color: #555;
+          text-transform: uppercase;
+          margin: 20px 0;
+          animation: slideInRight 1s ease-in-out;
         }
 
         .heading .btn {
@@ -264,6 +294,13 @@
 
         .about-section p {
           font-size: 16px;
+        }
+
+        .services-section {
+          padding: 50px 0;
+          text-align: center;
+          background-color: #fff;
+          animation: fadeIn 2s ease;
         }
 
         .services-section h2 {
@@ -366,7 +403,7 @@
 
     <section class="services-section">
       <div class="container">
-        <h2 class="highlight-text">Our Services</h2>
+        <h2 class="highlight-text">OUR SERVICES</h2>
 
         <div class="services">
           <div class="service">
@@ -402,7 +439,7 @@
 
     <section class="about-section">
       <div class="container">
-        <h2 class="highlight-text">About Us</h2>
+        <h2 class="highlight-text">ABOUT US</h2>
         <p>
           General Traders is a multi-dimensional commercial house of
           Hyderabad-Telangana involved in sales, retail and wholesale shops and
